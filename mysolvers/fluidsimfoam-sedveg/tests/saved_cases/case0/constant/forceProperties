@@ -1,0 +1,40 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      forceProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// * * * * * * * * * * * * * following are for presure * * * * * * * * * * * * * * * //
+gradPMEAN       gradPMEAN        [ 1 -2 -2 0 0 0 0 ] (400 0 0); // mean pressure
+
+phiSwitch	phiSwitch [ 0 0 0 0 0 0 0 ] 1;		// If 1, accounts for the reduction of volume due to the presence of vegetation
+
+tilt            tilt [ 0 0 0 0 0 0 0 ] 1;               // Impose same gravity term to both phases
+
+Cvm             Cvm [ 0 0 0 0 0 0 0 ] 0;                // Virtual/Added Mass coefficient
+
+Cl              Cl [ 0 0 0 0 0 0 0 ] 0;                 // Lift force coefficient
+
+Ct              Ct [ 0 0 0 0 0 0 0 ] 0;                 // Eddy diffusivity coefficient for phase a
+
+writeTau        true;
+
+writeMomentumBudget  true;
+
+divTauaDiscr    0;
+
+debugInfo	true;
+
+ClipUa          ClipUa [ 0 0 0 0 0 0 0 ] 1;
+// * * * * * * * * * * * * end of definition of pressure * * * * * * * * * * * * * //

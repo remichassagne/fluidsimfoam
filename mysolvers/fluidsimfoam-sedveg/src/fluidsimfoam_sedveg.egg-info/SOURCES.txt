@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/fluidsimfoam_sedveg/__init__.py
+src/fluidsimfoam_sedveg/output.py
+src/fluidsimfoam_sedveg.egg-info/PKG-INFO
+src/fluidsimfoam_sedveg.egg-info/SOURCES.txt
+src/fluidsimfoam_sedveg.egg-info/dependency_links.txt
+src/fluidsimfoam_sedveg.egg-info/entry_points.txt
+src/fluidsimfoam_sedveg.egg-info/requires.txt
+src/fluidsimfoam_sedveg.egg-info/top_level.txt
+src/fluidsimfoam_sedveg/templates/__init__.py
+src/fluidsimfoam_sedveg/templates/tasks.py
+tests/test_sedveg.py

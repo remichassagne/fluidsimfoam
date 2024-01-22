@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fluidsimfoam-sedveg
+Version: 0.0.1
+Summary: ???
+Author: Fluidsimfoam developers
+License: BSD-3-Clause
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fluidsimfoam>=0.0.7
+
+# Solver fluidsimfoam-sedveg
+
+## Installation
+
+First install [fluidsimfoam] (see
+https://fluidsimfoam.readthedocs.io/en/latest/install.html). Then:
+
+```sh
+pip install -e .
+```
+
+[fluidsimfoam]: https://foss.heptapod.net/fluiddyn/fluidsimfoam

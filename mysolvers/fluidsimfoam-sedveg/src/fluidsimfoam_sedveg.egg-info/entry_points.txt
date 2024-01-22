@@ -1,0 +1,2 @@
+[fluidsimfoam.solvers]
+sedveg = fluidsimfoam_sedveg
